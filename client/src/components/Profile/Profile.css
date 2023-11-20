@@ -1,0 +1,88 @@
+.about_container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.about_container .about{
+    max-width: 550px;
+    max-height: 450px;
+    box-shadow: 0 9px 15px rgba(0, 0, 0, 0.2);
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    margin-top: 3rem;
+    padding: .3rem;
+
+}
+.about_container .timeline{
+    width: 300px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: .3rem;
+}
+.about_container .about .dp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.about_container .about .dp img{
+    height: 300px;
+    width: 100%;
+    /* margin: 1rem 0rem; */
+}
+.about_container .about .dp .dp_file{
+    padding: .3rem .1rem;
+    border: 1px solid rgb(209, 198, 198);
+    width: 100%;
+}
+.about_container .about .dp .image{
+    display: flex;
+}
+.about_container .about .dp .image button{
+    padding: .2rem;
+    color: #fff;
+    background-color: #3e065f;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    margin-left: .4rem;
+}
+
+.about_container .about .user_details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: .8rem;
+    line-height: 1.5;
+}
+.about_container .about .user_details .user{
+    display: flex;
+    justify-content: space-between;
+
+}
+.about_container .about .user_details .user i{
+    color: green;
+    padding: .4rem;
+    margin-right: .5rem;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+.about_container .about .user_details .depReg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: .4rem;
+}
+
+.about_container .timeline .user_post{
+    width: 100%;
+    height: auto;
+    box-shadow: 0 9px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding: .2rem;
+    margin-top: 2rem;
+}
